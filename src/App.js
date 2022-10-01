@@ -1,13 +1,12 @@
-// import UseState from "./component/Hooks/UseState";
-import UseEffect from "./component/Hooks/UseEffect";
+import React from 'react'
+import Todo from './TodoList/Todo'
 
-function App() {
+const App = () => {
   return (
-<>
-{/* <UseState /> */}
-<UseEffect />
-</>
-  );
+    <>
+    <Todo />
+    </>
+  )
 }
 
-export default App;
+export default App
